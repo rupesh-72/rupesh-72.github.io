@@ -2,14 +2,14 @@ export const bio = {
   about: {
     text: [
       "Hi &#128075;",
-      "I'm Vinay Somawat. I’m currently working as a Software Engineer at Biofourmis India specialize in JavaScript Applications. I did my undergrad in CS from NIT Warangal.",
-      "I'm a developer, geek and curious human besides being an OpenSource enthusiast. I have experience of delivering solutions for interesting problems from startup and industry space.",
+      "I'm Rupesh Kumar. I’m currently pursuing B.Tech in Computer Science from KIET Group of Institutions. I did my Diploma in Electronics Engineering from Chhotu Ram Rural Institute of Technology Delhi.",
+      "I'm a developer, geek and curious human besides being an Cybersecurity enthusiast.",
       "I love to read, listen to music, and travel.",
     ],
   },
   contact: {
     text: [
-      "If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email. My email address is: vinaysomawat40@gmail.com",
+      "If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email. My email address is: rupeshkumar906960@gmail.com",
     ],
   },
 };
@@ -17,52 +17,52 @@ export const bio = {
 export const skills = [
   {
     title: "Languages",
-    skillName: "JavaScript, C++",
+    skillName: "C, C++",
     color: "1",
     percentage: "70",
   },
   {
-    title: "Frameworks/Libraries",
-    skillName: "Angular, Reactjs",
+    title: "Tools",
+    skillName: "Nmap, Burpsuite",
     color: "6",
     percentage: "50",
   },
   {
-    title: "Backend",
-    skillName: "Nodejs, MongoDB",
+    title: "SEO",
+    skillName: "Google Analytics, Google Search Console",
     color: "2",
-    percentage: "40",
+    percentage: "60",
   },
   {
     title: "Clouds",
-    skillName: "AWS(EC2, S3), Heroku, Netlify",
+    skillName: "AWS(EC2), Linode, Digitalocean",
     color: "3",
-    percentage: "30",
+    percentage: "40",
   },
   {
     title: "Design",
-    skillName: "HTML, Bootstrap, SCSS",
+    skillName: "Python",
     color: "4",
-    percentage: "70",
+    percentage: "30",
   },
   {
     title: "Version Control",
-    skillName: "GitHub, JIRA, Trello",
+    skillName: "GitHub, Git",
     color: "7",
     percentage: "70",
   },
-  {
-    title: "Tools",
-    skillName: "Postman, Chrome DevTools",
-    color: "3",
-    percentage: "80",
-  },
-  {
-    title: "Saas products",
-    skillName: "CleverTap, FreshDesk",
-    color: "5",
-    percentage: "50",
-  },
+  // {
+  //   title: "Tools",
+  //   skillName: "Postman, Chrome DevTools",
+  //   color: "3",
+  //   percentage: "80",
+  // },
+  // {
+  //   title: "Saas products",
+  //   skillName: "CleverTap, FreshDesk",
+  //   color: "5",
+  //   percentage: "50",
+  // },
   {
     title: "Editor",
     skillName: "VS Code",
@@ -71,7 +71,7 @@ export const skills = [
   },
 ];
 
-export const projects = {
+ export const projects = {
   webProjects: [
     {
       projectName: "Programming Diaries",
@@ -208,13 +208,13 @@ export const experience = [
 
 export const education = [
   {
-    title: "Bachelors in Computer Science and Engineering",
-    duration: "",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Bachelors in Computer Science",
+    duration: "2021 - 2024",
+    subtitle: "KIET Group of Institutions, Ghaziabad",
     details: [
-      "Qualified GATE-2020.",
-      "Active Competitive Programmer with CodeChef Rating 1841*.",
-      "Received 500+ stars and 300+ forks on GitHub projects.",
+      "Top 13% on Tryhackme",
+      "Active Competitive Programmer with CodeChef Rating 1466*.",
+      // "Received 500+ stars and 300+ forks on GitHub projects.",
     ],
     tags: [
       "Data Structures & Algorithms",
@@ -227,14 +227,19 @@ export const education = [
     icon: "graduation-cap",
   },
   {
-    title: "Class 11-12th in Science and Mathematics",
+    title: "Diploma in Electronics Engineering",
     duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    subtitle: "Chhotu Ram Rural Institute of Technology, Delhi",
     details: [
-      "Qualified JEE Advanced, Main & BITSAT.",
-      "Secured 99.5 percentile in Class 12th Boards Examinations.",
+      // "Qualified JEE Advanced, Main & BITSAT.",
+      "Secured 83.5 percentage in Diploma.",
     ],
-    tags: ["Physics", "Chemistry", "Mathematics"],
+    tags: [
+            "Microprocessor",
+            "Computer Organization",
+            "Digital Electronics",
+            "Communication System",
+          ],
     icon: "book",
   },
 ];
@@ -244,17 +249,25 @@ export const footer = [
     label: "Dev Profiles",
     data: [
       {
-        text: "Stackoverflow",
-        link: "https://stackoverflow.com/users/8461233/vinay-somawat",
+        text: "Tryhackme",
+        link: "https://tryhackme.com/p/rupesh72",
       },
       {
         text: "GitHub",
-        link: "https://github.com/vinaysomawat",
+        link: "https://github.com/rupesh-72",
+      },
+      {
+        text: "Codechef",
+        link: "https://codechef.com/rupesh72/",
       },
       {
         text: "LeetCode",
-        link: "https://leetcode.com/somawatvinay/",
+        link: "https://leetcode.com/rupesh72/",
       },
+      {
+        text: "Hackerank",
+        link: "https://www.hackerrank.com/rupesh72",
+      }
     ],
   },
   {
@@ -268,10 +281,10 @@ export const footer = [
         text: "Print this page",
         func: "window.print()",
       },
-      {
-        text: "Clone this page",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-      },
+      // {
+      //   text: "Clone this page",
+      //   link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+      // },
     ],
   },
   {
@@ -279,22 +292,22 @@ export const footer = [
     data: [
       {
         text: "Linkedin",
-        link: "https://www.linkedin.com/in/vinaysomawat/",
+        link: "https://www.linkedin.com/in/rupesh72/",
       },
       {
         text: "Twitter",
-        link: "https://twitter.com/thesigmakid",
+        link: "https://twitter.com/",
       },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
+      // {
+      //   text: "Buy me a coffee",
+      //   link: "https://www.buymeacoffee.com/r194dME8y",
+      // },
     ],
   },
   {
     label: "copyright-text",
     data: [
-      "Made with &hearts; by Vinay Somawat.",
+      "Made with &hearts; by Rupesh Kumar.",
       "&copy; No Copyrights. Feel free to use this template.",
     ],
   },
