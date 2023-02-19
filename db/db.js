@@ -216,7 +216,7 @@ export const education = [
   },
   {
     title: "Diploma in Electronics Engineering",
-    duration: "",
+    duration: "2018 - 2021",
     subtitle: "Chhotu Ram Rural Institute of Technology, Delhi",
     details: [
       // "Qualified JEE Advanced, Main & BITSAT.",
