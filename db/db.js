@@ -181,18 +181,6 @@ export const experience = [
     tags: ["Asterisk", "Cloud", "Digitalocean", "Ubuntu Server"],
     icon: "cloud",
   },
-  // {
-  //   title: "Novopay Solutions Pvt. Ltd.",
-  //   duration: "June 2020 - April 2022",
-  //   subtitle: "Software Engineer",
-  //   details: [
-  //     "Implemented Aadhaar Enabled Payment services such as Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money transfer; completed more than 20 story points in each sprint.",
-  //     "Integrated QR Code and reduced the effective time by 50 percent to load money into wallet, Clevertap events to track user actions, Freshdesk ticketing service and chat-bot services. Worked on user onboarding, approval, and finance interfaces.",
-  //     "Co-ordinated closely with the product team, backend team, android team, and QA team to deliver the product builds before deadlines.",
-  //   ],
-  //   tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
-  //   icon: "qrcode",
-  // },
   {
     title: "ThinkPedia LLP",
     duration: "May 2019 - June 2019",
