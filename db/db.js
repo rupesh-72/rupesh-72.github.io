@@ -172,27 +172,27 @@ export const skills = [
 
 export const experience = [
   {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 - Present",
-    subtitle: "Software Engineer",
+    title: "Cloud Based Phone System using Asterisk.",
+    duration: "",
+    subtitle: "Major Project",
     details: [
-      "Working on the products in the healthcare/digital therapeutics domain.",
+      "The goal of this project is to design and implement a cloud-based phone system using the Asterisk open-source PBX (private branch exchange) software. The system will provide reliable and flexible communication services.",
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "heartbeat",
+    tags: ["Asterisk", "Cloud", "Digitalocean", "Ubuntu Server"],
+    icon: "cloud",
   },
-  {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      "Implemented Aadhaar Enabled Payment services such as Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money transfer; completed more than 20 story points in each sprint.",
-      "Integrated QR Code and reduced the effective time by 50 percent to load money into wallet, Clevertap events to track user actions, Freshdesk ticketing service and chat-bot services. Worked on user onboarding, approval, and finance interfaces.",
-      "Co-ordinated closely with the product team, backend team, android team, and QA team to deliver the product builds before deadlines.",
-    ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
-  },
+  // {
+  //   title: "Novopay Solutions Pvt. Ltd.",
+  //   duration: "June 2020 - April 2022",
+  //   subtitle: "Software Engineer",
+  //   details: [
+  //     "Implemented Aadhaar Enabled Payment services such as Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money transfer; completed more than 20 story points in each sprint.",
+  //     "Integrated QR Code and reduced the effective time by 50 percent to load money into wallet, Clevertap events to track user actions, Freshdesk ticketing service and chat-bot services. Worked on user onboarding, approval, and finance interfaces.",
+  //     "Co-ordinated closely with the product team, backend team, android team, and QA team to deliver the product builds before deadlines.",
+  //   ],
+  //   tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
+  //   icon: "qrcode",
+  // },
   {
     title: "ThinkPedia LLP",
     duration: "May 2019 - June 2019",
@@ -202,7 +202,7 @@ export const experience = [
       "Developed a customer Web Application from scratch for social media management.",
     ],
     tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
+    icon: "code",
   },
 ];
 
