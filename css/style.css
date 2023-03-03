@@ -552,6 +552,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-skills,
 .colorlib-projects,
 .colorlib-education,
+.colorlib-certifications,
 .colorlib-blogs,
 .colorlib-work,
 .colorlib-about,
@@ -570,6 +571,7 @@ body.offcanvas .colorlib-nav-toggle {
 	.colorlib-skills,
 	.colorlib-projects,
 	.colorlib-education,
+	.colorlib-certifications,
 	.colorlib-work,
 	.colorlib-about,
 	.colorlib-installation,
@@ -841,7 +843,7 @@ body.offcanvas .colorlib-nav-toggle {
 	display: block;
 	width: 40px;
 	height: 40px;
-	background: #2c98f0;
+	background: #3e54ac;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;

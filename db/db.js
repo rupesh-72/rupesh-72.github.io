@@ -182,14 +182,13 @@ export const experience = [
     icon: "cloud",
   },
   {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
+    title: "Open Ports Scanner",
+    duration: "",
+    subtitle: "Minor Project",
     details: [
-      "Worked as a full stack developer to support tech team.",
-      "Developed a customer Web Application from scratch for social media management.",
+      "Implemented a simple port scanner, The user input the IP address and the Socket Programming library establish connection with remote host to scan for open ports",
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+    tags: ["C++", "Socket Programming", "Networking"],
     icon: "code",
   },
 ];
@@ -300,6 +299,83 @@ export const footer = [
     ],
   },
 ];
+
+// Define an array of certifications with their title, description, and link
+export const certifications = [
+  {
+      title: "Network Defence Essentials (CodeRed - ECCouncil)",
+      description: "Network Defense Essentials covers the fundamental concepts of information security and network defence, and How to scan a Network to find Vulnerabilities.",
+      link: "https://codered.eccouncil.org/certificate/845138b2-882a-4985-a0ce-5d9d70c134f0?logged=false"
+  },
+  {
+      title: "Ethical Hacking Essentials (CodeRed - ECCouncil)",
+      description: "Ethical Hacking Essentials is an introductory cybersecurity course that covers ethical hacking and penetration testing fundamentals and prepares learners for a career in cybersecurity.",
+      link: "https://codered.eccouncil.org/certificate/3486ded6-e8a7-40d9-9ef5-f5bb3f2bdc2b?logged=false"
+  },
+  {
+    title: "Data Structures (Coursera)",
+    description: "This course provides you a guided tour of the field of data structures, algorithms, and complexity analysis.",
+    link: "https://www.coursera.org/account/accomplishments/verify/SH4MKLTJ2VPD"
+}
+];
+
+// Get the certifications container element by its ID
+const certificationsContainer = document.getElementById("certifications");
+
+// Create the first book icon element
+const bookIcon1 = document.createElement("i");
+bookIcon1.classList.add("fa", "fa-book","fa-inverse", "color-2");
+
+// Create the second book icon element
+const bookIcon2 = document.createElement("i");
+bookIcon2.classList.add("fa", "fa-book","fa-inverse", "color-2");
+
+// Loop through the certifications array and create HTML elements for each certification
+certifications.forEach(function(certification) {
+  // Create a new certification container element
+  const certificationContainer = document.createElement("div");
+  certificationContainer.classList.add("timeline-entry");
+
+  // Create a certification content element with title, description, and link
+  const certificationContent = document.createElement("div");
+  certificationContent.classList.add("timeline-entry-inner");
+  certificationContent.innerHTML = `
+      <div class="timeline-icon">
+          ${bookIcon1.outerHTML}
+      </div>
+      
+      <div class="timeline-label">
+          <h2><strong>${certification.title}</strong></h2>
+          <p>${certification.description}</p>
+          <a href="${certification.link}" target="_blank" style="color: #3e54ac;"><b>View Certificate</b></a>
+      </div>
+  `;
+
+  // Append the content element to the container element
+  certificationContainer.appendChild(certificationContent);
+
+  // Append the container element to the certifications container element
+  certificationsContainer.appendChild(certificationContainer);
+});
+
+// Create a new timeline entry for the second book icon
+const bookIconContainer = document.createElement("div");
+bookIconContainer.classList.add("timeline-entry");
+
+// Create a div for the second book icon
+const bookIconDiv = document.createElement("div");
+bookIconDiv.classList.add("timeline-entry-inner");
+bookIconDiv.innerHTML = `
+    <div class="timeline-icon">
+        ${bookIcon2.outerHTML}
+    </div>
+`;
+
+// Append the second book icon div to the timeline entry div
+bookIconContainer.appendChild(bookIconDiv);
+
+// Append the book icon container to the certifications container element
+certificationsContainer.appendChild(bookIconContainer);
 
 const gitUserName = 'vinaysomawat';
 
