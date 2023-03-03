@@ -245,7 +245,7 @@ export const footer = [
       },
       {
         text: "Codechef",
-        link: "https://codechef.com/rupesh72/",
+        link: "https://www.codechef.com/users/rupesh72/",
       },
       {
         text: "LeetCode",
