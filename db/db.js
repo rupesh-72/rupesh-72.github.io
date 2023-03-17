@@ -182,11 +182,12 @@ export const experience = [
     icon: "cloud",
   },
   {
-    title: "Open Ports Scanner",
+    title: "Realtime Chatroom",
     duration: "",
     subtitle: "Minor Project",
     details: [
-      "Implemented a simple port scanner, The user input the IP address and the Socket Programming library establish connection with remote host to scan for open ports",
+      "This project allows users to connect to a server and chat with each other in realtime.",
+      "<a href='https://github.com/rupesh-72/cpp-socket-chatroom' style='color: blue;'>View Project</a>"
     ],
     tags: ["C++", "Socket Programming", "Networking"],
     icon: "code",
